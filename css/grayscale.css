@@ -286,6 +286,9 @@ margin-top: 45px;
     display: flex;
     justify-content: center;
 }
+.skills{
+    margin-top: 85px;
+}
 .icons{
     height:13vh;
 }
