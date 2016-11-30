@@ -1,0 +1,71 @@
+<div class="container container-2 text-right">
+    <h4>Cart</h4>
+    <br>
+    <br>
+    <div>
+        <div class="checkout-box">
+            (1) T-Shirt - Medium <input type="" name="name" value="1"><button class="text-right" onclick="location.href = '#/cart1';">Update Quantity</button><button class="text-right" onclick="location.href = '#/cart';">X</button>
+        </div>
+        <div class="checkout-box">
+            (1) Button & Sticker Pack <input type="" name="name" value="1"><button class="text-right" onclick="location.href = '#/cart';">Update Quantity</button><button class="text-right" onclick="location.href = '#/cart';">X</button>
+        </div>
+    </div>
+    <div class="text-right-padding">
+        <p>Cart Total: $20.00</p>
+        <br>
+        <button onclick="location.href = '#/login';" class="btn btn-success">Login & Checkout</button>
+        <br>
+        <br>
+    </div>
+    <div class="row">
+        <div class="box">
+            <div>
+                <img class="img-responsive img-border img-push" src="img/biscuits.png" alt="">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- <div id="main">
+        <div class="f1">
+            <strong>Products</strong>:
+            <br>
+            <br>
+            <div class="products" ng-class="{selected: product === selected}" ng-repeat="product in products" ng-click="select(product)">
+                {{product.name}} : ${{product.price}}
+                <button ng-click="addToCart(product)">Add To Cart</button>
+            </div>
+        </div>
+
+        <div class="f1">
+            <strong>Cart</strong>:{{getTotal()}}
+            <br>
+            <br>
+            <div ng-repeat="item in user.cart.products">
+                {{item.product.name}} : ${{item.product.price}}, qty: {{item.qty}}
+                <button ng-click="removeFromCart(item.product)">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="product-container">
+        <div>
+            <input type="text" ng-model="newProduct.name" placeholder="name">
+            <input type="number" ng-model="newProduct.price" placeholder="$">
+            <br>
+            <button ng-click="addProduct(newProduct)">Add</button>
+        </div>
+        <br>
+        <div>
+            <input type="text" ng-model="selected.name" placeholder="name">
+            <input type="number" ng-model="selected.price" placeholder="$">
+            <br>
+            <button ng-click="updateProduct(selected)">Update</button>
+            <button ng-click="deleteProduct(selected)">Delete</button>
+        </div>
+        <br>
+        <br>
+        <button onclick="location.href = '#/login';">Checkout</button>
+        <br>
+        <br>
+    </div> -->
+</div>

@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'leaguegothic-italic';
+    src: url('../fonts/leaguegothic-italic-webfont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'leaguegothic-regular';
+    src: url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+}
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*background: url('../img/bg.jpg') no-repeat center center fixed;*/
+    background-color: #ECEAE6;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+a {
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+.container-2 {
+    border: 1.5px solid #cfcfcf;
+    background-color: #F5F5F5;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+p {
+    font-size: 1em;
+    line-height: 2;
+    color: #000;
+    /*text-indent: 30px;*/
+}
+.menu-container-text {
+    text-align: center;
+    font-size: .75em;
+    margin-bottom: 12px;
+    /*font-family: "Open Sans";*/
+}
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+.brand, .address-bar-2 {
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-weight: 400;
+    letter-spacing: 3px;
+    display: none;
+    color: #000;
+}
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.img-full {
+    min-width: 100%;
+    margin-bottom: 35px;
+    /*border: #999999 solid 1px;*/
+}
+.brand-before, .brand-name {
+    text-transform: capitalize;
+}
+.brand-before {
+    margin: 15px 0;
+}
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+.tagline-divider {
+    /*margin: 22px auto 3px;*/
+    max-width: 250px;
+    border-color: #999999;
+}
+.box {
+    margin: 15px 0 10px;
+    /*padding: 0 15px;*/
+    /*border: 1px solid #000000;*/
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.8);*/
+}
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    /*border: #999999 solid 1px;*/
+}
+.img-push {
+    margin-bottom: 30px;
+}
+footer {
+    margin-top: 30px;
+    /*background: #F9D5D9;*/
+    /*background: #fff;
+    background: rgba(255,255,255,0.9);*/
+}
+footer p {
+    margin: 0;
+    font-size: .8em;
+    line-height: 1.6;
+    color: #878787;
+}
+.gallery-text {
+    margin: 0;
+    padding-bottom: 14px;
+    font-size: .8em;
+    line-height: 1.6;
+    color: #878787;
+}
+
+.biscuit-clicker {}
+.text-right-padding {
+    padding-right: 8px
+}
+.checkout-box {
+    border: 1px solid #878787;
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+h4 {
+    text-align: center;
+}
+#loginMain {
+    text-align: center;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+}
+.f1 {
+    flex: 1;
+    text-align: center;
+    /*margin-left: 10%;*/
+}
+
+/*#product-container {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}*/
+
+#product-container > div {
+    text-align: center;
+    margin: 0 20%;
+}
+.products:hover {
+    cursor: pointer;
+}
+.selected {
+    color: green;
+}
+.hero-spacer {
+    margin-top: 50px;
+}
+.hero-feature {
+    margin-bottom: 30px;
+    align-content: center;
+}
+@media screen and (min-width:300px) {
+    .address-bar-2 {
+        display: inherit;
+        font-family: 'Open Sans';
+        text-align: center;
+        font-size: .6em;
+        /*font-weight: 100;
+      letter-spacing: 3px;*/
+        /*color: #000;*/
+    }
+    .about-box {
+        font-size: .8em;
+    }
+}
+@media screen and (min-width:450px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding-bottom: 17px;
+        text-align: center;
+        /*text-shadow: 2px 2px 3px #F9D5D9;*/
+        font-family: 'leaguegothic-italic';
+        font-size: 2.5em;
+        font-weight: 650;
+        line-height: normal;
+        letter-spacing: 10px;
+        color: rgba(198, 67, 40, 0.93);
+    }
+    .top-divider {
+        margin-top: 0;
+    }
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        /*padding: 30px 0 30px;*/
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #474747;
+    }
+    .address-bar-2 {
+        display: inherit;
+        /*margin: 0;*/
+        /*padding: 30px 0 30px;*/
+        font-family: 'Open Sans';
+        text-align: center;
+        /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
+        /*text-transform: uppercase;*/
+        font-size: 1em;
+        font-weight: 100;
+        letter-spacing: 3px;
+        color: #000;
+    }
+    .about-box {
+        font-size: 1em;
+    }
+    .navbar {
+        border-radius: 0;
+    }
+    .navbar-header {
+        display: none;
+        position: fixed;
+        clear: both;
+    }
+    .navbar {
+        min-height: 0;
+    }
+    .navbar-default {
+        border: none;
+        background: none;
+        /*font-family: 'leaguegothic-regular';*/
+        font-size: .7em;
+        /*background: #fff;
+        background: rgba(255,255,255,0.9);*/
+    }
+    .nav>li>a {
+        padding: 15px 15px 0 15px;
+    }
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1em;
+    }
+}
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
